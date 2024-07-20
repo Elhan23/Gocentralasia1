@@ -1,0 +1,86 @@
+@import '../../../scss/base/variant.scss';
+
+.bg_footer{
+   background-color: $variant-color1;
+   font-family: $variant-fonts;
+   height: 377px;
+   
+
+   .footer_style{
+     display: flex;
+     justify-content: space-between;
+   }
+
+   .contact_footer{
+     display: flex;
+     flex-direction: column;
+     gap: 12px;
+
+     & h3{
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      color: white;
+   }
+
+     .mini_contact{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+    
+      
+      & p{
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 24px;
+         color: white;
+      }
+     }
+   }
+
+   .contact_footer1{
+     display: flex;
+     flex-direction: column;
+     gap: 16px;
+
+     & h3{
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      color: white;
+     }
+
+     & a {
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 24px;
+       color: white;
+       text-decoration: none;
+
+       &:hover{
+          text-decoration:underline;
+          transition: 0.3s;
+       }
+     }
+   }
+
+   .end_foooter{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 50px;
+
+     & p{
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 24px;
+       color: white;
+     }
+
+     .end_img{
+       display: flex;
+       gap: 16px
+     }
+   }
+}

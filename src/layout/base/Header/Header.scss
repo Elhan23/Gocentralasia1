@@ -1,0 +1,43 @@
+@import "../../../scss/base/variant.scss";
+
+.header_style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .header_link {
+    & ul {
+      display: flex;
+      align-items: center;
+      gap: 34px;
+    }
+
+    & a {
+      font-family: $variant-fonts;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      text-decoration: none;
+      color: $variant-color3;
+    }
+  }
+
+  .caret_style{
+     display: flex;
+     align-items: center;
+     gap: 3px;
+  }
+
+  .glass_style{
+     display: flex;
+     align-items: center;
+     gap: 16px;
+
+      & p{
+         font-family: $variant-fonts;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 24px;
+      }
+  }
+}
